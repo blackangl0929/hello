@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}
+    Index
+{#    super的作用是应用了父辈内容，让我们可以继续#}
+    {{ super() }}
+{% endblock %}
+{% block page_context %}
+    <div class="container theme-showcase" role="main">
+      <div class="jumbotron">
+        <h1>Base Security</h1>
+        <p>NSFOCUS helps secure the world’s largest banks, telecommunications companies,
+            mobile operators, social media companies, service providers, gaming, and content provider companies.</p>
+      </div>
+{% endblock %}
